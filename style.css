@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #9070dc, #6170be);
+    text-align: center;
+    /* width: 1000px; */
+}
+
+p {
+    font-size: 22px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px white;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+}
+
+ul {
+    list-style: none;
+    font-size: 22px;
+}
+
+article {
+    padding: 10px;
+    /* margin: 10px; */
+    background: #978FC7;
+    border-radius: 8px;
+}
+
+.cat {
+    /* align-self: self-start; */
+    margin-top: 80px;
+    width: 300px;
+    height: 500px;
+    padding-top: 40px;
+    padding: 30px;
+    /* text-decoration: underline; */
+}
+
+.dog {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 300px;
+    height: 600px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    align-items: center;
+    padding: 30px;
+
+
+}
+
+.fish {
+    margin-top: 80px;
+    width: 300px;
+    height: 450px;
+    padding-top: 40px;
+    padding: 30px;
+    padding-bottom: 
+    align-items: center;
+}
+
+.cat ul li:nth-of-type(1){
+    border-bottom: 1px solid #9070dc;
+}
+
+.cat ul li:nth-of-type(2) {
+    border-bottom: 1px solid #9070dc;
+}
+
+.dog ul li:nth-of-type(1) {
+    border-bottom: 1px solid #9070dc;
+}
+
+.dog ul li:nth-of-type(2) {
+    border-bottom: 1px solid #9070dc;
+}
+
+.dog ul li:nth-of-type(3) {
+    border-bottom: 1px solid #9070dc;
+}
+
+.fish ul li:nth-of-type(2) {
+    border-bottom: 1px solid #9070dc;
+}
+
+.fish ul li:nth-of-type(3) {
+    border-bottom: 1px solid #9070dc;
+}
+
+
+.button1 {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    
+  }
+
+  .button2 {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 65px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15.3px;
+    border-radius: 8px;
+  
+   
+    
+  }
+
+  .button3 {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 15px 110px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    
+  }
+
+  button .button {
+    flex: 1;
+  }
+
+  @media (max-width: 600px) {
+    section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    p {
+        font-size: 18px;
+    }
+
+    
+    h3 {
+        color: white;
+        font-size: 25px;
+        text-shadow: 1px 1px white;
+    }
+    
+    h1 {
+        font-size: 35px;
+        font-weight: normal;
+    }
+
+    ul {
+        list-style: none;
+        font-size: 18px;
+    }
+
+    .cat {
+        margin-top: 0;
+        width: 270px;
+        height: 470px;
+        padding-top: 20px;
+        padding: 20px;
+    }
+    
+    .dog {
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 270px;
+        height: 500px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .fish {
+        margin-top: -30px;
+        width: 270px;
+        height: 420px;
+        padding-top: 20px;
+        padding: 20px;
+    }
+
+    .button1 {
+        background-color: yellow;
+        border: none;
+        color: black;
+        padding: 15px 80px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 8px;
+        
+      }
+    
+      .button2 {
+        background-color: yellow;
+        border: none;
+        color: black;
+        padding: 15px 70px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 8px;
+      
+       
+        
+      }
+    
+      .button3 {
+        background-color: yellow;
+        border: none;
+        color: black;
+        padding: 15px 105px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 8px;
+        
+      }
+  }
+
+
